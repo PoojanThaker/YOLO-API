@@ -23,7 +23,7 @@ def main():
 
 
 @app.route('/')
-def main():
+def hello():
     return 'Hello'
 
 

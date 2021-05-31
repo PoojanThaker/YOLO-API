@@ -12,7 +12,7 @@ Return value : List of (x,y,w,h,label,confidence)
 label = name of the object</br>
 confidence = confidence of the prediction</br>
 
-# TODO:
+### TODO:
 - Optimize the API to enable videos/livestreams as inputs</br>
 - Deploy on GPU</br>
 - Add user authentication</br>

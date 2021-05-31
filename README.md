@@ -1,9 +1,9 @@
 # YOLO-API
-REST API to use vanilla yolov3 online
+REST API to use vanilla yolov3 darknet model online
 
 
 Use the following command to use the API:</br>
-```curl.exe -X POST -F image=@imagename.jpg 'https://yolo-rest-api.herokuapp.com/api'```
+```curl.exe -X POST -F image=@imagename.jpg "https://yolo-rest-api.herokuapp.com/api"```
 
 Return value : List of (x,y,w,h,label,confidence)
 
